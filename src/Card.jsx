@@ -6,7 +6,7 @@ function Card(props) {
             <div className="card-wrap">
                 <p className="location">{props.location} <a href={props.google}>View on Google Maps</a></p>
                 <p className="title">{props.title}</p>
-                <p className="date">{props.start}{props.end}</p>
+                <p className="date">{props.start} - {props.end}</p>
                 <p className="paragraph">{props.description}</p>
             </div>
         </div>
